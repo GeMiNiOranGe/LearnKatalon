@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.setText(findTestObject('Object Repository/LoginPage/txtUsername'), username)
@@ -27,6 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/txtPassword')
 
 WebUI.click(findTestObject('Object Repository/LoginPage/btnLogin'))
 
-//WebUI.click(findTestObject('Object Repository/LoginPage/aShoppingCartLink'))
+WebUI.verifyTextPresent(expectedMessage, false)
 
 WebUI.closeBrowser()
+

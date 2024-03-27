@@ -1,2 +1,2 @@
 # LearnKatalon
-Lab04 for Swag Labs web testing
+Lab04 for [Swag Labs](https://www.saucedemo.com/) web testing

@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>287a9c60-9946-4630-8945-94bcc112f106</id>
+         <id>c98a3b98-1a30-4ff4-93f2-8def1d06f1f0</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,16 +27,22 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>287a9c60-9946-4630-8945-94bcc112f106</testDataLinkId>
+         <testDataLinkId>c98a3b98-1a30-4ff4-93f2-8def1d06f1f0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>075da83e-40d4-4155-bc34-ecab8cf1ff27</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>287a9c60-9946-4630-8945-94bcc112f106</testDataLinkId>
+         <testDataLinkId>c98a3b98-1a30-4ff4-93f2-8def1d06f1f0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>6ba339fa-869e-4ecd-bbb0-dd9fc034f0f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c98a3b98-1a30-4ff4-93f2-8def1d06f1f0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedMessage</value>
+         <variableId>24f5e1a8-900e-4f79-85e4-07b34872cb67</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
